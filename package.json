@@ -12,15 +12,18 @@
     "test": "echo \"No test specified\" && exit 0"
   },
   "dependencies": {
+    "@nomiclabs/buidler": "^1.1.2",
     "@quasar/extras": "^1.0.0",
+    "@types/mocha": "^7.0.1",
     "axios": "^0.18.1",
     "quasar": "^1.0.0",
-    "sass-loader": "^8.0.2"
+    "sass-loader": "^8.0.2",
+    "ts-node": "^8.6.2"
   },
   "devDependencies": {
     "@quasar/app": "^1.0.0",
     "@quasar/quasar-app-extension-typescript": "^1.0.0-beta.2",
-    "@types/node": "^11.9.5",
+    "@types/node": "^13.7.0",
     "@typescript-eslint/eslint-plugin": "^1.12.0",
     "@typescript-eslint/parser": "^1.12.0",
     "@vue/eslint-config-standard": "^4.0.0",
@@ -29,7 +32,7 @@
     "eslint-config-prettier": "^6.0.0",
     "eslint-loader": "^2.1.1",
     "eslint-plugin-vue": "^5.0.0",
-    "typescript": "^3.3.3"
+    "typescript": "^3.7.5"
   },
   "engines": {
     "node": ">= 10.18.1",

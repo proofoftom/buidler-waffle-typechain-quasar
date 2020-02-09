@@ -13,5 +13,9 @@
       "node"
     ]
   },
+  "include": ["./scripts", "./test"],
+  "files": [
+    "./buidler.config.ts"
+  ],
   "exclude": ["node_modules"]
 }
