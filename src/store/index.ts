@@ -1,5 +1,6 @@
 import Vue from 'vue'
 import Vuex from 'vuex'
+import ethers from './ethers'
 
 // import example from './module-example'
 
@@ -15,15 +16,17 @@ Vue.use(Vuex)
  */
 
 export default function (/* { ssrContext } */) {
-  const Store = new Vuex.Store({
+  const store = new Vuex.Store({
     modules: {
-      // example
+      ethers
     },
 
     // enable strict mode (adds overhead!)
     // for dev mode only
-    strict: true
+    // strict: true
   })
 
-  return Store
+  store.dispatch('ethers/init')
+
+  return store
 }

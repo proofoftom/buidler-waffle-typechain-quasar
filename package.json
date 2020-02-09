@@ -1,12 +1,9 @@
 {
-  "name": "@civitas/app",
+  "name": "@proofoftom/quasar-buidlr-typescript",
   "version": "0.0.1",
-  "description": "The future of decentralized fundraising and governance for communities.",
-  "productName": "Civitas",
-  "cordovaId": "org.cordova.quasar.app",
-  "capacitorId": "",
-  "author": "Tommy Cox <tommy.cox@protonmail.com>",
   "private": true,
+  "description": "Quasar + Buidler + Ethers + Waffle + TypeChain",
+  "author": "Tommy Cox <tommy.cox@protonmail.com>",
   "scripts": {
     "lint": "eslint --ext .js,.ts,.vue --ignore-path .gitignore ./",
     "test": "echo \"No test specified\" && exit 0"
@@ -22,8 +19,10 @@
     "axios": "^0.18.1",
     "buidler-typechain": "^0.0.5",
     "chai": "^4.2.0",
+    "es6-promisify": "^6.0.0",
     "ethereum-waffle": "^2.3.2",
     "ethers": "^4.0.44",
+    "p-timeout": "^2.0.1",
     "quasar": "^1.0.0",
     "sass-loader": "^8.0.2",
     "ts-generator": "^0.0.8",
@@ -31,7 +30,8 @@
     "typechain": "^1.0.5",
     "typechain-target-ethers": "^1.0.3",
     "typechain-target-truffle": "^1.0.2",
-    "typechain-target-web3-v1": "^1.0.4"
+    "typechain-target-web3-v1": "^1.0.4",
+    "vuex": "^3.0.1"
   },
   "devDependencies": {
     "@quasar/app": "^1.0.0",
@@ -45,14 +45,18 @@
     "eslint-config-prettier": "^6.0.0",
     "eslint-loader": "^2.1.1",
     "eslint-plugin-vue": "^5.0.0",
-    "typescript": "^3.7.5"
+    "typescript": "^3.7.5",
+    "vue-cli-plugin-ethers": "~0.1.4"
   },
+  "browserslist": [
+    "last 1 version, not dead, ie >= 11"
+  ],
+  "capacitorId": "",
+  "cordovaId": "org.cordova.quasar.app",
   "engines": {
     "node": ">= 10.18.1",
     "npm": ">= 6.13.4",
     "yarn": ">= 1.21.1"
   },
-  "browserslist": [
-    "last 1 version, not dead, ie >= 11"
-  ]
+  "productName": "Civitas"
 }
