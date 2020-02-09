@@ -2,8 +2,8 @@ import { waffle } from '@nomiclabs/buidler';
 import chai from 'chai';
 import { deployContract, solidity } from 'ethereum-waffle';
 
-import CounterArtifact from '../src/artifacts/Counter.json';
-import { Counter } from '../src/types/Counter';
+import CounterArtifact from '../build/contracts/Counter.json';
+import { Counter } from '../build/types/Counter';
 
 chai.use(solidity);
 const { expect } = chai;

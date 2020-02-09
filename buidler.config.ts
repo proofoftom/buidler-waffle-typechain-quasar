@@ -9,10 +9,10 @@ const config: BuidlerConfig = {
   },
   defaultNetwork: 'buidlerevm',
   paths: {
-    artifacts: 'src/artifacts'
+    artifacts: 'build/contracts'
   },
   typechain: {
-    outDir: 'src/types',
+    outDir: 'build/types',
     target: 'ethers'
   }
 }

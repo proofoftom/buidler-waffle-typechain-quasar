@@ -1,7 +1,7 @@
 // Configuration for your app
 // https://quasar.dev/quasar-cli/quasar-conf-js
 
-export default function (/*ctx*/) {
+module.exports = function (/*ctx*/) {
   return {
     // Quasar looks for *.js files by default
     sourceFiles: {

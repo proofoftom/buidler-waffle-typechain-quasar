@@ -32,7 +32,8 @@ yarn-error.log*
 *.njsproj
 *.sln
 
+# Temporary files
+.openzeppelin/.session
+.openzeppelin/dev*
+build
 cache
-
-src/artifacts
-src/types
