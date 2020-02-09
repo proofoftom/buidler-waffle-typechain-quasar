@@ -4,10 +4,13 @@
     "sourceMap": true,
     "target": "es6",
     "strict": true,
+    "esModuleInterop": true,
     "experimentalDecorators": true,
     "module": "esnext",
     "moduleResolution": "node",
     "baseUrl": ".",
+    "outDir": "dist",
+    "resolveJsonModule": true,
     "types": [
       "quasar",
       "node"
@@ -15,7 +18,8 @@
   },
   "include": ["./scripts", "./test"],
   "files": [
-    "./buidler.config.ts"
+    "./buidler.config.ts",
+    "node_modules/@nomiclabs/buidler-ethers/src/type-extensions.d.ts"
   ],
   "exclude": ["node_modules"]
 }

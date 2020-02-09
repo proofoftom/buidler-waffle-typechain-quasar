@@ -1,4 +1,6 @@
-import { BuidlerConfig } from '@nomiclabs/buidler/config'
+import { BuidlerConfig, usePlugin } from '@nomiclabs/buidler/config'
+
+usePlugin('@nomiclabs/buidler-ethers');
 
 const config: BuidlerConfig = {
   solc: {
