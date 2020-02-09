@@ -1,7 +1,7 @@
 // Configuration for your app
 // https://quasar.dev/quasar-cli/quasar-conf-js
 
-module.exports = function (ctx) {
+export default function (/*ctx*/) {
   return {
     // Quasar looks for *.js files by default
     sourceFiles: {
@@ -94,7 +94,7 @@ module.exports = function (ctx) {
           loader: 'eslint-loader',
           exclude: /node_modules/,
           options: {
-            formatter: require('eslint').CLIEngine.getFormatter('stylish')
+            formatter: require('eslint').CLIEngine.getFormatter('stylish') //eslint-disable-line
           }
         })
       }
@@ -121,13 +121,13 @@ module.exports = function (ctx) {
       workboxPluginMode: 'GenerateSW', // 'GenerateSW' or 'InjectManifest'
       workboxOptions: {}, // only for GenerateSW
       manifest: {
-        name: 'Civitas',
-        short_name: 'Civitas',
+        name: 'Quasar Buidler TypeChain',
+        short_name: 'Quasar Buidler TypeChain', //eslint-disable-line
         description: 'The future of decentralized fundraising and governance for communities.',
         display: 'standalone',
         orientation: 'portrait',
-        background_color: '#ffffff',
-        theme_color: '#027be3',
+        background_color: '#ffffff', //eslint-disable-line
+        theme_color: '#027be3', //eslint-disable-line
         icons: [
           {
             'src': 'statics/icons/icon-128x128.png',
@@ -190,13 +190,13 @@ module.exports = function (ctx) {
       builder: {
         // https://www.electron.build/configuration/configuration
 
-        appId: '@civitas/app'
+        appId: '@proofoftom/quasar-buidlr-typechain'
       },
 
       // More info: https://quasar.dev/quasar-cli/developing-electron-apps/node-integration
       nodeIntegration: true,
 
-      extendWebpack (cfg) {
+      extendWebpack (/*cfg*/) {
         // do something with Electron main process Webpack cfg
         // chainWebpack also available besides this extendWebpack
       }

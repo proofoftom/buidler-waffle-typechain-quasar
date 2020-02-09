@@ -1,5 +1,5 @@
 {
-  "name": "@proofoftom/quasar-buidlr-typescript",
+  "name": "@proofoftom/quasar-buidlr-typechain",
   "version": "0.0.1",
   "private": true,
   "description": "Quasar + Buidler + Ethers + Waffle + TypeChain",
@@ -61,5 +61,5 @@
     "npm": ">= 6.13.4",
     "yarn": ">= 1.21.1"
   },
-  "productName": "Civitas"
+  "productName": "Quasar Buidler TypeChain"
 }
