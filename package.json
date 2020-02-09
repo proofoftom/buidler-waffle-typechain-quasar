@@ -5,8 +5,11 @@
   "description": "Quasar + Buidler + Ethers + Waffle + TypeChain",
   "author": "Tommy Cox <tommy.cox@protonmail.com>",
   "scripts": {
+    "build": "yarn compile && quasar build",
+    "compile": "buidler compile && buidler typechain",
+    "dev": "quasar dev",
     "lint": "eslint --ext .js,.ts,.vue --ignore-path .gitignore ./",
-    "test": "echo \"No test specified\" && exit 0"
+    "test": "buidler test"
   },
   "dependencies": {
     "@nomiclabs/buidler": "^1.1.2",

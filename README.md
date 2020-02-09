@@ -15,30 +15,27 @@ yarn
 
 ### Compile and type safe the contracts
 ```
-npx buidler compile
-```
-```
-npx buidler typechain
+yarn compile
 ```
 
 ### Run Waffle tests
 ```
-npx buidler test
+yarn test
 ```
 
 ### Start the app in development mode (hot-code reloading, error reporting, etc.)
 ```
-npx quasar dev
+yarn dev
 ```
 
 ### Lint the files
 ```
-yarn run lint
+yarn lint
 ```
 
 ### Build the app for production
 ```
-npx quasar build
+yarn build
 ```
 
 ### Customize the configuration
