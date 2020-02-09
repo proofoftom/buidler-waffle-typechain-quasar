@@ -24,4 +24,8 @@ contract Counter {
     emit CountedTo(count);
     return count;
   }
+
+  function getCount() public view returns (uint256) {
+    return count;
+  }
 }

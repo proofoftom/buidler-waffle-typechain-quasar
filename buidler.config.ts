@@ -1,12 +1,20 @@
-import { BuidlerConfig, usePlugin } from '@nomiclabs/buidler/config'
+import { BuidlerConfig, usePlugin } from '@nomiclabs/buidler/config';
 
-usePlugin('@nomiclabs/buidler-ethers');
+usePlugin('@nomiclabs/buidler-waffle');
+usePlugin('buidler-typechain');
 
 const config: BuidlerConfig = {
   solc: {
     version: '0.6.2'
   },
-  defaultNetwork: 'buidlerevm'
+  defaultNetwork: 'buidlerevm',
+  paths: {
+    artifacts: 'src/artifacts'
+  },
+  typechain: {
+    outDir: 'src/types',
+    target: 'ethers'
+  }
 }
 
-module.exports = config;
+export default config;

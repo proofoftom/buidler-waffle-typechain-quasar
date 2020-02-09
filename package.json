@@ -14,16 +14,24 @@
   "dependencies": {
     "@nomiclabs/buidler": "^1.1.2",
     "@nomiclabs/buidler-ethers": "^1.1.2",
+    "@nomiclabs/buidler-waffle": "^1.1.2",
     "@quasar/extras": "^1.0.0",
     "@types/chai": "^4.2.8",
     "@types/mocha": "^7.0.1",
+    "@types/sinon-chai": "^3.2.3",
     "axios": "^0.18.1",
+    "buidler-typechain": "^0.0.5",
     "chai": "^4.2.0",
     "ethereum-waffle": "^2.3.2",
     "ethers": "^4.0.44",
     "quasar": "^1.0.0",
     "sass-loader": "^8.0.2",
-    "ts-node": "^8.6.2"
+    "ts-generator": "^0.0.8",
+    "ts-node": "^8.6.2",
+    "typechain": "^1.0.5",
+    "typechain-target-ethers": "^1.0.3",
+    "typechain-target-truffle": "^1.0.2",
+    "typechain-target-web3-v1": "^1.0.4"
   },
   "devDependencies": {
     "@quasar/app": "^1.0.0",
