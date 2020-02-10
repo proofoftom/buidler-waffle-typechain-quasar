@@ -5,11 +5,13 @@ export function init (context: any) {
 }
 
 export async function decrement (context: any) {
-  await counter.countDown();
+  const tx = await counter.countDown();
+  await tx.wait();
   context.commit('updateCount');
 }
 
 export async function increment (context: any) {
-  await counter.countUp();
+  const tx = await counter.countUp();
+  await tx.wait();
   context.commit('updateCount');
 }
