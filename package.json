@@ -6,11 +6,11 @@
   "author": "Tommy Cox <tommy.cox@protonmail.com>",
   "scripts": {
     "build": "yarn compile && quasar build",
-    "compile": "rm -rf build && buidler compile && buidler typechain",
+    "compile": "rm -rf build && oz compile && buidler typechain",
     "dev": "rm -rf build && oz create && buidler typechain && quasar dev",
     "ganache": "ganache-cli -d",
     "lint": "eslint --ext .js,.ts,.vue --ignore-path .gitignore ./",
-    "test": "buidler test",
+    "test": "yarn compile && buidler test",
     "web": "quasar dev"
   },
   "dependencies": {
@@ -19,6 +19,7 @@
     "@nomiclabs/buidler-waffle": "^1.1.2",
     "@openzeppelin/cli": "^2.6.0",
     "@quasar/extras": "^1.0.0",
+    "@resolver-engine/core": "^0.3.3",
     "@types/chai": "^4.2.8",
     "@types/mocha": "^7.0.1",
     "@types/sinon-chai": "^3.2.3",
