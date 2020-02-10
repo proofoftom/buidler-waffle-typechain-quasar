@@ -14,15 +14,28 @@ import Vue from 'vue'
 
 export default Vue.extend({
   name: 'PageIndex',
-  created() {
-    this.$store.dispatch('counter/init');
+  async created() {
+    try {
+      await this.$store.dispatch('counter/init');
+    } catch({ message }) {
+      this.$q.notify({color: 'negative', message});
+    }
   },
   methods: {
-    decrement() {
-      this.$store.dispatch('counter/decrement');
+    async decrement() {
+      try {
+        await this.$store.dispatch('counter/decrement');
+      } catch({ message }) {
+        this.$q.notify({color: 'negative', message});
+      }
     },
-    increment() {
-      this.$store.dispatch('counter/increment');
+    async increment() {
+      try {
+        await this.$store.dispatch('counter/increment');
+      }
+      catch ({ message }) {
+        this.$q.notify({color: 'negative', message});
+      }
     }
   },
 })
