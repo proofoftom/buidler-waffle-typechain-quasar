@@ -1,20 +1,24 @@
-# Quasar Buidler TypeChain
+# Hackathon Helper
 
 [Quasar](https://quasar.dev) + [Buidler](https://buidler.dev) + [Ethers](https://docs.ethers.io/ethers.js) + [Waffle](https://getwaffle.io) + [TypeChain](https://github.com/ethereum-ts/TypeChain) + [OpenZeppelin SDK](https://docs.openzeppelin.com/openzeppelin)
 
-> Opinionated smart contract development environment and frontend.
+Wondering where to begin with tooling or if your old tooling is still relevant? This template has vetted and configured best practice dApp development tools to give you a powerful smart contract development environment - paired with an easy to learn (and also powerful) frontend framework - without you having to do a ton of research. 
 
-* **Buidler** - next level Solidity debugging
+Rest easy (on a bean bag most likely) knowing that your project's stack is built to last. Don't wait, accelerate your next proof of concept with **Hackathon Helper** today!
 
-* **Waffle** - makes writing tests dead simple
+## Batteries Included
 
-* **TypeChain** - makes your tests and frontend code type safe and magically autocompletes smart contract function names in your IDE!
+* **Buidler** - provides next level Solidity debugging with stack traces.
 
-* **OpenZeppelin SDK** - upgradeable proxy deployments
+* **Waffle** - makes writing tests for your contracts dead simple.
 
-* **Quasar** - a popular Vue framework with a built in component/style system. You can use it to build web, mobile, and desktop native apps.
+* **TypeChain** - makes your tests type safe and magically autocompletes smart contract function names in your IDE.
 
-* **Ethers + Vuex module** - allows you to interact with the TypeChain contracts from the frontend.
+* **OpenZeppelin SDK** - allows you to easily deploy and upgrade your contracts on multiple networks.
+
+* **Quasar** - a popular Vue/TypeScript framework with a built in component system built on material design. Allows you to build a cross-platform dApp with a single codebase.
+
+* **Ethers + Vuex module** - allows you to interact with the contracts from the frontend and keep network, account, and contract information in sync.
 
 ## Install the dependencies
 ```
@@ -26,7 +30,7 @@ yarn
 yarn compile
 ```
 
-### Run Waffle tests
+### Run Waffle tests with stack traces
 ```
 yarn test
 ```
@@ -50,7 +54,7 @@ yarn web
 yarn lint
 ```
 
-### Build the app for production
+### Build the dApp for production
 ```
 yarn build
 ```

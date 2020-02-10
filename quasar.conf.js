@@ -190,7 +190,7 @@ module.exports = function (/*ctx*/) {
       builder: {
         // https://www.electron.build/configuration/configuration
 
-        appId: '@proofoftom/quasar-buidlr-typechain'
+        appId: '@proofoftom/hackathon-helper'
       },
 
       // More info: https://quasar.dev/quasar-cli/developing-electron-apps/node-integration

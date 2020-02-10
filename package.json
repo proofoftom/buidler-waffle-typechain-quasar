@@ -1,5 +1,5 @@
 {
-  "name": "@proofoftom/quasar-buidlr-typechain",
+  "name": "@proofoftom/hackathon-helper",
   "version": "0.0.1",
   "private": true,
   "description": "Quasar + Buidler + Ethers + Waffle + TypeChain + OpenZeppelin",
