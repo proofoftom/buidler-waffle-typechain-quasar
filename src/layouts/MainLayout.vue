@@ -15,7 +15,7 @@
           Quasar App
         </q-toolbar-title>
 
-        <div>Quasar v{{ $q.version }}</div>
+        <div>{{ $store.state.ethers.address }}</div>
       </q-toolbar>
     </q-header>
 

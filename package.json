@@ -6,9 +6,9 @@
   "author": "Tommy Cox <tommy.cox@protonmail.com>",
   "scripts": {
     "build": "yarn compile && quasar build",
-    "compile": "oz compile && buidler typechain",
-    "dev": "oz create && buidler typechain && quasar dev",
-    "ganache": "ganache-cli -d -q",
+    "compile": "rm -rf build && buidler compile && buidler typechain",
+    "dev": "rm -rf build && oz create && buidler typechain && quasar dev",
+    "ganache": "ganache-cli -d",
     "lint": "eslint --ext .js,.ts,.vue --ignore-path .gitignore ./",
     "test": "buidler test",
     "web": "quasar dev"

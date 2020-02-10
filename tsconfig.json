@@ -16,7 +16,7 @@
       "node"
     ]
   },
-  "include": ["./scripts", "./test"],
+  "include": ["./scripts", "./test", "./src"],
   "files": [
     "./buidler.config.ts",
     "node_modules/buidler-typechain/src/type-extensions.d.ts",

@@ -1,5 +1,6 @@
 import Vue from 'vue'
 import Vuex from 'vuex'
+import counter from './counter'
 import ethers from './ethers'
 
 // import example from './module-example'
@@ -18,6 +19,7 @@ Vue.use(Vuex)
 export default function (/* { ssrContext } */) {
   const store = new Vuex.Store({
     modules: {
+      counter,
       ethers
     },
 
