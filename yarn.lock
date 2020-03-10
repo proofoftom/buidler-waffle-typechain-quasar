@@ -1108,11 +1108,12 @@
   resolved "https://registry.yarnpkg.com/@nomiclabs/buidler-ethers/-/buidler-ethers-1.1.2.tgz#f04ed66dec71c2f70b4925b6ba46ab5d07948974"
   integrity sha512-kLa4v3aYx4rB8kydHnCZM61WiedYC+AM6sMjpGxRdwbXjHutdman3BHnm3d+TsO/kFL3F5rBGcB1zLCo+R1enQ==
 
-"@nomiclabs/buidler-waffle@^1.1.2":
-  version "1.1.2"
-  resolved "https://registry.yarnpkg.com/@nomiclabs/buidler-waffle/-/buidler-waffle-1.1.2.tgz#385503e3c542f900473f056d4be9170015cfd9b3"
-  integrity sha512-IIlH8+gmK1aezQj5U6+sqO+I/vilStkWvTl1Ki/x5DK7ONPLnGCN2jljjtDvCuqjRumV16FtlfK782Po9tdCQA==
+"@nomiclabs/buidler-waffle@^1.2.0":
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/@nomiclabs/buidler-waffle/-/buidler-waffle-1.2.0.tgz#587153d3d4648ca60842b687151679ebfd329c9b"
+  integrity sha512-8xZRgC0O/bxmfFlCjU8H+akcTvFbSbEHbNWl6g2+cTCTrw5Gx4yv2WsPTXuhok3Q8KlPrXkn1nt01qHef3UPyg==
   dependencies:
+    "@types/sinon-chai" "^3.2.3"
     "@types/web3" "1.0.19"
 
 "@nomiclabs/buidler@^1.1.2":
