@@ -17,7 +17,7 @@
     "@nomiclabs/buidler": "^1.1.2",
     "@nomiclabs/buidler-ethers": "^1.1.2",
     "@nomiclabs/buidler-waffle": "^1.1.2",
-    "@openzeppelin/cli": "^2.6.0",
+    "@openzeppelin/cli": "^2.8.1",
     "@quasar/extras": "^1.0.0",
     "@resolver-engine/core": "^0.3.3",
     "@types/chai": "^4.2.8",
