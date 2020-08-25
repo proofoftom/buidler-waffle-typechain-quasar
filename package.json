@@ -28,7 +28,7 @@
     "chai": "^4.2.0",
     "es6-promisify": "^6.0.0",
     "ethereum-waffle": "^2.3.2",
-    "ethers": "^4.0.44",
+    "ethers": "^4.0.48",
     "ganache-cli": "^6.9.0",
     "p-timeout": "^2.0.1",
     "quasar": "^1.0.0",
