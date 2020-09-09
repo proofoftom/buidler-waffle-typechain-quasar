@@ -6888,14 +6888,16 @@ functional-red-black-tree@^1.0.1, functional-red-black-tree@~1.0.1:
   resolved "https://registry.yarnpkg.com/functional-red-black-tree/-/functional-red-black-tree-1.0.1.tgz#1b0ab3bd553b2a0d6399d29c0e3ea0b252078327"
   integrity sha1-GwqzvVU7Kg1jmdKcDj6gslIHgyc=
 
-ganache-cli@^6.9.0:
-  version "6.9.0"
-  resolved "https://registry.yarnpkg.com/ganache-cli/-/ganache-cli-6.9.0.tgz#94d7e26964dff80b7382a33829ec75e15709a948"
-  integrity sha512-ZdL6kPrApXF/O+f6uU431OJcwxMk69H3KPDSHHrMP82ZvZRNpDHbR+rVv7XX/YUeoQ5q6nZ2AFiGiFAVn9pfzA==
+ganache-cli@^6.10.2:
+  version "6.10.2"
+  resolved "https://registry.yarnpkg.com/ganache-cli/-/ganache-cli-6.10.2.tgz#3256774a47437052e2b9d7df2efc2b3f2250cffd"
+  integrity sha512-wCuQjy7k040J8hii1KQ/dYHv8qjdHIcP3fw331AWPqQjeqNquf5HVVQNJOYXINTDofMDkCMQv3ru4ze/A+WyPQ==
   dependencies:
     ethereumjs-util "6.1.0"
     source-map-support "0.5.12"
     yargs "13.2.4"
+  optionalDependencies:
+    scrypt "6.0.3"
 
 ganache-core@*:
   version "2.10.1"
@@ -12317,7 +12319,7 @@ scrypt.js@^0.3.0:
   optionalDependencies:
     scrypt "^6.0.2"
 
-scrypt@^6.0.2:
+scrypt@6.0.3, scrypt@^6.0.2:
   version "6.0.3"
   resolved "https://registry.yarnpkg.com/scrypt/-/scrypt-6.0.3.tgz#04e014a5682b53fa50c2d5cce167d719c06d870d"
   integrity sha1-BOAUpWgrU/pQwtXM4WfXGcBthw0=
