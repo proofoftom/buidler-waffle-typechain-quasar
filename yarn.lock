@@ -10657,6 +10657,11 @@ p-timeout@^2.0.1:
   dependencies:
     p-finally "^1.0.0"
 
+p-timeout@^4.0.1:
+  version "4.0.1"
+  resolved "https://registry.yarnpkg.com/p-timeout/-/p-timeout-4.0.1.tgz#a4c1d33f50fcae3a302e9a37c980ad360f3163ab"
+  integrity sha512-7GfpWa9RVtx27xhLJiICP4qwAk4MlY1/Q7AEfE1jWzoWQtowKzpm5Roo6ConYGxatwm7hJmT6EmInipN5RpG5Q==
+
 p-try@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/p-try/-/p-try-1.0.0.tgz#cbc79cdbaf8fd4228e13f621f2b1a237c1b207b3"
