@@ -30,7 +30,7 @@
     "ethereum-waffle": "^2.3.2",
     "ethers": "^4.0.44",
     "ganache-cli": "^6.9.0",
-    "p-timeout": "^2.0.1",
+    "p-timeout": "^4.1.0",
     "quasar": "^1.0.0",
     "sass-loader": "^8.0.2",
     "ts-generator": "^0.0.8",
