@@ -23,7 +23,7 @@
     "@types/chai": "^4.2.8",
     "@types/mocha": "^7.0.1",
     "@types/sinon-chai": "^3.2.3",
-    "axios": "^0.18.1",
+    "axios": "^0.21.1",
     "buidler-typechain": "^0.0.5",
     "chai": "^4.2.0",
     "es6-promisify": "^6.0.0",
